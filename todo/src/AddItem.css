@@ -1,0 +1,58 @@
+.TodoForm {
+    width: 100%;
+    margin-bottom: 1rem;
+    background: #1A1A40;
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #8758ff;
+    padding: 0.5rem 1rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+    width: 300px;
+    color: #fff;
+  }
+  
+  .todo-input::placeholder {
+    color: #ffffff4d;
+  }
+  
+  .todo-btn {
+    background: #8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+    
+  }
+
+  .todo-btn:hover{
+    background:#4300eb ;
+  }
+
+  /* .AddItem {
+    background: #1A1A40; */
+    /* margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 600px;
+    height: 360px;
+    overflow-y: auto;
+    border: 10px solid black; */
+  /* } */
+.errorarea{
+    color: darkred;
+    text-align: start;
+    padding-left: 5rem
+  }
+
+  @media screen and (max-width:600px) {
+    .todo-input{
+        width: 150px;
+    }
+  }
